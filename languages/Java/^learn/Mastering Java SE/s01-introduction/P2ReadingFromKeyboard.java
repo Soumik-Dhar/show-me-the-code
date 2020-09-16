@@ -13,51 +13,51 @@ public class P2ReadingFromKeyboard
 		Scanner sc = new Scanner(System.in);
 
 		// scanning integer using nextInt()
-		System.out.print("\nEnter an integer value: ");
+		System.out.print("\n Enter an integer value: ");
 		int integerInput = sc.nextInt();
-		System.out.println("You have entered : " + integerInput);
+		System.out.println(" You have entered : " + integerInput);
 
 		// scanning double using nextDouble()
-		System.out.print("\nEnter a double value : ");
+		System.out.print("\n Enter a double value : ");
 		double doubleInput = sc.nextDouble();
-		System.out.println("You have entered : " + doubleInput);
+		System.out.println(" You have entered : " + doubleInput);
 
 		// scanning byte using nextByte()
-		System.out.print("\nEnter a byte value : ");
+		System.out.print("\n Enter a byte value : ");
 		short byteInput = sc.nextByte();
-		System.out.println("You have entered : " + byteInput);
+		System.out.println(" You have entered : " + byteInput);
 
 		// scanning boolean using nextBoolean()
-		System.out.print("\nEnter a boolean value : ");
+		System.out.print("\n Enter a boolean value : ");
 		boolean booleanInput = sc.nextBoolean();
-		System.out.println("You have entered : " + booleanInput);
+		System.out.println(" You have entered : " + booleanInput);
 
 		// scanning string using next() and nextLine()
-		System.out.print("\nEnter a string (word) : ");
+		System.out.print("\n Enter a string (word) : ");
 		String nextInput = sc.next();
-		System.out.println("You have entered : " + nextInput);
+		System.out.println(" You have entered : " + nextInput);
 		/* consuming the left-over newline since sc.nextFoo does not capture
 		 * the new line after taking the input - resulting in sc.nextLine 
 		 * receiving the "\n" character only*/
 		sc.nextLine();
-		System.out.print("\nEnter a string (line of text) : ");
+		System.out.print("\n Enter a string (line of text) : ");
 		String nextLineInput = sc.nextLine();
-		System.out.println("You have entered : " + nextLineInput);
+		System.out.println(" You have entered : " + nextLineInput);
 
 		// setting the input radix using useRadix()
 		sc.useRadix(2);
-		System.out.print("\nEnter a binary value: ");
+		System.out.print("\n Enter a binary value: ");
 		int binaryInput = sc.nextInt();
-		System.out.println("Integer decimal equivalent : " + binaryInput);
+		System.out.println(" Integer decimal equivalent : " + binaryInput);
 
 		sc.useRadix(16);
-		System.out.print("\nEnter a hexadecimal value: ");
+		System.out.print("\n Enter a hexadecimal value: ");
 		short hexInput = sc.nextShort();
-		System.out.println("Short decimal equivalent : " + hexInput);
+		System.out.println(" Short decimal equivalent : " + hexInput);
 
 		// checking for valid type using hasNext() or hasNextFoo()
-		System.out.print("\nEnter an integer or boolean value : ");
-		System.out.print("\nEntered input is an integer : " + sc.hasNextInt());
-		System.out.println("\nEntered input is a boolean : " + sc.hasNextBoolean());
+		System.out.print("\n Enter an integer or boolean value : ");
+		System.out.print("\n Entered input is an integer : " + sc.hasNextInt());
+		System.out.println("\n Entered input is a boolean : " + sc.hasNextBoolean());
 	}
 }

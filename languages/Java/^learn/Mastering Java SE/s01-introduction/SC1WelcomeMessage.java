@@ -13,11 +13,11 @@ public class SC1WelcomeMessage
 		Scanner sc = new Scanner(System.in);
 
 		// taking username as a string input
-		System.out.print("\nEnter an username : ");
+		System.out.print("\n Enter an username : ");
 		username = sc.nextLine();
 
 		// displaying welcome message
-		System.out.println("Welcome " + username + "!" +
+		System.out.println(" Welcome " + username + "!" +
 		" You've completed your first student challenge!");
 	}
 }
