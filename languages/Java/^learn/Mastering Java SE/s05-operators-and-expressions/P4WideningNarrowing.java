@@ -1,5 +1,5 @@
 /* practice program to demonstrate widening (upcasting a.k.a implicit type
- * casting)and narrowing (downcasting a.k.a explicit type casting) */
+ * casting) and narrowing (downcasting a.k.a explicit type casting) */
 
 import java.lang.*;
 

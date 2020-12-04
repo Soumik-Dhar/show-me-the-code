@@ -70,7 +70,7 @@ class P3StringMethods
 		System.out.println(" str.lastIndexOf(\"ton\") = " 
 			+ str.lastIndexOf("ton"));
 		// str.lastIndexOf(character or string, index)
-		System.out.println(" str.lastIndexOf('C', 40) = " 
+		System.out.println(" str.lastIndexOf('C', 25) = " 
 			+ str.lastIndexOf('C', 25));
 
 		// using indexOf to check for occurance of a substring 
@@ -93,8 +93,8 @@ class P3StringMethods
 			+ str + " is a fine actor");
 
 		// str.valueOf()
-		System.out.println("\n str.valueOf(23.6912f) (float type) = " 
-			+ str.valueOf(23.6912f) + " (String)");	
+		System.out.println("\n String.valueOf(23.6912f) (float type) = " 
+			+ String.valueOf(23.6912f) + " (String)");	
 
 		String str1 = "Hello World!";
 		String str2 = "hello world!";
